@@ -311,7 +311,10 @@ async def get_pack_info(event):
         f"**Emojis In Pack:**\n{' '.join(pack_emojis)}"
 
     await event.edit(OUTPUT)
-
+<<<<<<< HEAD
+=======
+    
+    
 @register(outgoing=True, pattern="^.getsticker$")
 async def sticker_to_png(sticker):
     if not sticker.is_reply:
@@ -338,6 +341,7 @@ async def sticker_to_png(sticker):
         sticker.chat_id, image, reply_to=img.id, force_document=True)
     await sticker.delete()
     return
+>>>>>>> 2e823b0... stickers: improvements getsticker
 
 
 CMD_HELP.update({
