@@ -19,20 +19,20 @@ from telethon.tl.types import InputStickerSetID
 from telethon.tl.types import DocumentAttributeSticker
 
 KANGING_STR = [
-    "Eh... Koq bagus... aku curry ahhh :3",
-    "Aku curry ya kakak :)",
-    "Curry Sticker dulu yee kan",
-    "ehh, mantep nih.....aku ambil ya qaqa",
-    "Bagus eaaaa....\nAmbil ahh....",
-    "Ini Sticker aku ambil yaa\nDUARR!",
-    "leh ugha ni Sticker\nCurry ahh~",
-    "Pim Pim Pom!!!\nni Sticker punya aing sekarang hehe",
-    "Bentar boss, ane curry dulu",
-    "Ihh, bagus nih\nCurry ahh~",
-    "Curry lagi yee kan.....",
-    "CURRY TROSS!!!",
-	"Bolehkah saya curry ni sticker\nau ah curry aja hehe",
-	"Curry Sticker ahh.....",
+    "Eh... Koq bagus... aku kang ahhh :3",
+    "Aku kang y kakak :)",
+    "Using Witchery to kang this sticker...",
+    "Plagiarising hehe...",
+    "Inviting this sticker over to my pack...",
+    "Great\nKanging this sticker hahahahaha...",
+    "Hey that's a nice sticker!\nMind if I kang?!..",
+    "hehe me stel ur stikér\nhehe.",
+    "Ay look over there (☉｡☉)!→\nWhile I kang this...",
+    "Roses are red\nviolets are blue\nkanging this sticker\nso my pack looks cool",
+    "Imprisoning this sticker...\nit'll look good in my pack",
+    "I'm is stealing this sticker...\nhehehehehe... ",
+	"May i kang this?\nI'll do it anyway even you says no!",
+	"Seems gud if i kang this...",
 ]
 
 
