@@ -21,6 +21,7 @@ hachoir>=3.0a5
 httplib2>=0.15.0
 google-auth-httplib2
 humanize
+instantmusic
 lxml
 oauth2client
 Pillow>=6.0.0
