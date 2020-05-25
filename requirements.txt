@@ -23,6 +23,7 @@ hachoir
 heroku3>=3.4.0	
 httplib2
 humanize
+instalooter
 instantmusic
 lxml
 oauth2client
