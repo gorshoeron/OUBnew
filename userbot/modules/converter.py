@@ -7,7 +7,7 @@ from userbot.events import register
 import os
 from userbot import TEMP_DOWNLOAD_DIRECTORY ,bot
 from userbot import CMD_HELP
-from userbot.utils import admin_cmd, humanbytes, progress, time_formatter
+from userbot.util import admin_cmd, humanbytes, progress, time_formatter
 
 @register(outgoing=True, pattern=r"^.togif(?: |$)(.*)")
 async def convert_gif(gif):
