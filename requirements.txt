@@ -9,6 +9,7 @@ covid
 REPO_LINK
 dnspython
 emoji
+ffmpy
 gitpython
 google-api-python-client
 google-auth-oauthlib
