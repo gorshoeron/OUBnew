@@ -35,7 +35,7 @@ from urllib.error import HTTPError
 
 from userbot import CMD_HELP, LOGS, TEMP_DOWNLOAD_DIRECTORY
 from userbot.events import register
-from userbot.util import humanbytes, time_formatter
+from userbot.utils import humanbytes, time_formatter
 
 
 async def subprocess_run(megadl, cmd):
