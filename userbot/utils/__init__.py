@@ -19,6 +19,7 @@ from .google_images_download import googleimagesdownload
 from .progress import progress
 
 from .tools import (
+    admin_cmd,
     humanbytes,
     time_formatter,
     human_to_bytes,
