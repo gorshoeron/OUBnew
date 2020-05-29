@@ -56,10 +56,6 @@ def register(**args):
 
     def decorator(func):
         async def wrapper(check):
-            if check.edit_date and check.is_channel and not check.is_group:
-                # Messages sent in channels can be edited by other users.
-                # Ignore edits that take place in channels.
-                return
             if not LOGSPAMMER:
                 send_to = check.chat_id
             else:
@@ -72,7 +68,7 @@ def register(**args):
                 await check.respond("`I don't think this is a group.`")
                 return
 
-            if check.via_bot_id and not insecure and check.out:
+            if check.via_bot_id and not insecure:
                 return
 
             try:
@@ -97,7 +93,7 @@ def register(**args):
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
                     text = "**USERBOT ERROR REPORT**\n"
-                    link = "Support chat PM: @Syarifibnu"
+                    link = "Support chat PM: @fortifying"
                     text += "If you want to, you can report it"
                     text += f"- just forward this message to {link}.\n"
                     text += "Nothing is logged except the fact of error and date\n"
